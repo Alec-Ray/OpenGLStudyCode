@@ -1,0 +1,11 @@
+﻿  main_07_CEA.cpp
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(228): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(325): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(326): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(330): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(331): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(333): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(334): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_07_cameraeulerangle\main_07_cea.cpp(359): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+  OGL_07_CameraEulerAngle.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_07_CameraEulerAngle.exe
+  OGL_07_CameraEulerAngle.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_07_CameraEulerAngle.pdb (Partial PDB)
