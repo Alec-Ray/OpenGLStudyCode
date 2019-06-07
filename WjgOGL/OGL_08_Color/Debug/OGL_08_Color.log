@@ -1,0 +1,12 @@
+﻿  main_08.cpp
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(160): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(166): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(241): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(242): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(246): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(247): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(250): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_08_color\main_08.cpp(257): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OGL_08_Color.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_08_Color.exe
+  OGL_08_Color.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_08_Color.pdb (Partial PDB)

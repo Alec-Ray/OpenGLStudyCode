@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_07_CameraMoveByKeyboard
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_07_CameraEulerAngle", "OGL_07_CameraEulerAngle\OGL_07_CameraEulerAngle.vcxproj", "{D127EE44-58AB-403D-8AE4-94D24FBD31B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_08_Color", "OGL_08_Color\OGL_08_Color.vcxproj", "{342C6DD5-2823-4273-BE77-638AFC93253D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{D127EE44-58AB-403D-8AE4-94D24FBD31B4}.Release|x64.Build.0 = Release|x64
 		{D127EE44-58AB-403D-8AE4-94D24FBD31B4}.Release|x86.ActiveCfg = Release|Win32
 		{D127EE44-58AB-403D-8AE4-94D24FBD31B4}.Release|x86.Build.0 = Release|Win32
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Debug|x64.ActiveCfg = Debug|x64
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Debug|x64.Build.0 = Debug|x64
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Debug|x86.ActiveCfg = Debug|Win32
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Debug|x86.Build.0 = Debug|Win32
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Release|x64.ActiveCfg = Release|x64
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Release|x64.Build.0 = Release|x64
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Release|x86.ActiveCfg = Release|Win32
+		{342C6DD5-2823-4273-BE77-638AFC93253D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
