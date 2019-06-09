@@ -1,0 +1,14 @@
+﻿  main_09.cpp
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(163): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(169): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(174): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(175): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(250): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(251): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(255): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(256): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(258): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(259): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_09_basiclighting\main_09.cpp(266): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OGL_09_BasicLighting.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_09_BasicLighting.exe
+  OGL_09_BasicLighting.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_09_BasicLighting.pdb (Partial PDB)
