@@ -207,7 +207,8 @@ int main()
 		//一个观察者位置的聚光灯
 		MyShader.setVec3("light.position",  camera.Position);
 		MyShader.setVec3("light.direction", camera.Front);
-		MyShader.setFloat("light.cutOff",   glm::cos(glm::radians(12.5f)));
+		MyShader.setFloat("light.cutOff",   glm::cos(glm::radians(12.5f)));			//内光锥
+		MyShader.setFloat("light.outerCutOff", glm::cos(glm::radians(14.5f)));		//外光锥
 		MyShader.setVec3("light.ambient", glm::vec3(0.3f));
 		MyShader.setVec3("light.diffuse",  glm::vec3(0.5f)); 
 		MyShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f); 
