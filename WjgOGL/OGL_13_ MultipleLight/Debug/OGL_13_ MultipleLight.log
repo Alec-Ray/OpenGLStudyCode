@@ -1,0 +1,22 @@
+﻿  main_13.cpp
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(178): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(184): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(203): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(204): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(211): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(212): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(219): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(220): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(227): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(228): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(236): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(237): warning C4305: “参数”: 从“double”到“float”截断
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(325): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(326): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(330): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(331): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(333): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(334): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\wjgogl\ogl_13_ multiplelight\main_13.cpp(341): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OGL_13_ MultipleLight.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_13_ MultipleLight.exe
+  OGL_13_ MultipleLight.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_13_ MultipleLight.pdb (Partial PDB)
