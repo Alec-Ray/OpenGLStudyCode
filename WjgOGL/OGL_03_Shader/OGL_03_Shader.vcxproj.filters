@@ -26,6 +26,12 @@
     <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shader.fs" />

@@ -1,9 +1,11 @@
-#include <glad\glad.h>
-#include <glfw\glfw3.h>
+#include "glad.h"
+#include "glfw3.h"
 #include <iostream>
 #include "Shader.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
+
+#pragma comment ( lib,"glfw3.lib" ) 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);

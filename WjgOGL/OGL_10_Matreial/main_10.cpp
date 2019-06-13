@@ -9,6 +9,8 @@
 #include "includes\glm\gtc\matrix_transform.hpp"
 #include "includes\glm\gtc\type_ptr.hpp"
 
+#pragma comment ( lib,"glfw3.lib" ) 
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);

@@ -9,6 +9,8 @@
 #include "includes\glm\gtc\matrix_transform.hpp"
 #include "includes\glm\gtc\type_ptr.hpp"
 
+#pragma comment ( lib,"glfw3.lib" ) 
+
 const unsigned int Screen_Width  = 1000;
 const unsigned int Screen_Height = 800;
 
