@@ -1,0 +1,12 @@
+﻿  main_17.cpp
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(199): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(205): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(291): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(292): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(296): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(297): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(299): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(300): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl\openglstudycode\wjgogl\ogl_17_blenddiscard\main_17.cpp(307): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OGL_17_BlendDiscard.vcxproj -> D:\OpenGL\OpenGLStudyCode\WjgOGL\Debug\OGL_17_BlendDiscard.exe
+  OGL_17_BlendDiscard.vcxproj -> D:\OpenGL\OpenGLStudyCode\WjgOGL\Debug\OGL_17_BlendDiscard.pdb (Partial PDB)
