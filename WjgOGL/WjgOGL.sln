@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_15_DepthTest", "OGL_15_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_15_DepthTestView", "OGL_15_DepthTestView\OGL_15_DepthTestView.vcxproj", "{19D73559-3841-4E28-B847-88DC52B91D1D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_16_StencilTest", "OGL_16_StencilTest\OGL_16_StencilTest.vcxproj", "{D18A6A23-03F9-4668-AC86-6E4030F00712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{19D73559-3841-4E28-B847-88DC52B91D1D}.Release|x64.Build.0 = Release|x64
 		{19D73559-3841-4E28-B847-88DC52B91D1D}.Release|x86.ActiveCfg = Release|Win32
 		{19D73559-3841-4E28-B847-88DC52B91D1D}.Release|x86.Build.0 = Release|Win32
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Debug|x64.ActiveCfg = Debug|x64
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Debug|x64.Build.0 = Debug|x64
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Debug|x86.ActiveCfg = Debug|Win32
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Debug|x86.Build.0 = Debug|Win32
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Release|x64.ActiveCfg = Release|x64
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Release|x64.Build.0 = Release|x64
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Release|x86.ActiveCfg = Release|Win32
+		{D18A6A23-03F9-4668-AC86-6E4030F00712}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
