@@ -1,0 +1,12 @@
+﻿  main_19.cpp
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(246): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(256): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(360): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(361): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(365): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(366): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(368): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(369): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_19_framebuffer\main_19.cpp(376): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OGL_19_FrameBuffer.vcxproj -> C:\OpenGL\OpenGLStudyCode\WjgOGL\Debug\OGL_19_FrameBuffer.exe
+  OGL_19_FrameBuffer.vcxproj -> C:\OpenGL\OpenGLStudyCode\WjgOGL\Debug\OGL_19_FrameBuffer.pdb (Partial PDB)
