@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferBlur", "O
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferEdgeDetection", "OGL_19_FrameBufferEdgeDetection\OGL_19_FrameBufferEdgeDetection.vcxproj", "{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_20_Cubemap", "OGL_20_Cubemap\OGL_20_Cubemap.vcxproj", "{0D78E7F2-7F83-4062-B555-0C5A729B09E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +353,14 @@ Global
 		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x64.Build.0 = Release|x64
 		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x86.ActiveCfg = Release|Win32
 		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x86.Build.0 = Release|Win32
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Debug|x64.ActiveCfg = Debug|x64
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Debug|x64.Build.0 = Debug|x64
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Debug|x86.Build.0 = Debug|Win32
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Release|x64.ActiveCfg = Release|x64
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Release|x64.Build.0 = Release|x64
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Release|x86.ActiveCfg = Release|Win32
+		{0D78E7F2-7F83-4062-B555-0C5A729B09E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

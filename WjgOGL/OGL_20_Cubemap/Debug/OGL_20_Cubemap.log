@@ -1,0 +1,12 @@
+﻿  main_20.cpp
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(217): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(223): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(312): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(313): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(317): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(318): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(320): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(321): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\opengl\openglstudycode\wjgogl\ogl_20_cubemap\main_20.cpp(328): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OGL_20_Cubemap.vcxproj -> C:\OpenGL\OpenGLStudyCode\WjgOGL\Debug\OGL_20_Cubemap.exe
+  OGL_20_Cubemap.vcxproj -> C:\OpenGL\OpenGLStudyCode\WjgOGL\Debug\OGL_20_Cubemap.pdb (Partial PDB)
