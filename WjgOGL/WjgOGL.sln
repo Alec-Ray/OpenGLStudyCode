@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferConvoluti
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferBlur", "OGL_19_FrameBufferBlur\OGL_19_FrameBufferBlur.vcxproj", "{90CD0D35-2786-41B5-80B2-8B71BCF44858}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferEdgeDetection", "OGL_19_FrameBufferEdgeDetection\OGL_19_FrameBufferEdgeDetection.vcxproj", "{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x64.Build.0 = Release|x64
 		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x86.ActiveCfg = Release|Win32
 		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x86.Build.0 = Release|Win32
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Debug|x64.ActiveCfg = Debug|x64
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Debug|x64.Build.0 = Debug|x64
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Debug|x86.ActiveCfg = Debug|Win32
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Debug|x86.Build.0 = Debug|Win32
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x64.ActiveCfg = Release|x64
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x64.Build.0 = Release|x64
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x86.ActiveCfg = Release|Win32
+		{220A31DE-EF6E-490A-A5DB-DF05EFBD4F36}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
