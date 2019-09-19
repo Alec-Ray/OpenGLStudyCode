@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferGrayscale
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferConvolutionMatrix", "OGL_19_FrameBufferConvolutionMatrix\OGL_19_FrameBufferConvolutionMatrix.vcxproj", "{3A78EC2C-85EC-4FA5-B44C-75BF4CEB5DFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_19_FrameBufferBlur", "OGL_19_FrameBufferBlur\OGL_19_FrameBufferBlur.vcxproj", "{90CD0D35-2786-41B5-80B2-8B71BCF44858}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{3A78EC2C-85EC-4FA5-B44C-75BF4CEB5DFB}.Release|x64.Build.0 = Release|x64
 		{3A78EC2C-85EC-4FA5-B44C-75BF4CEB5DFB}.Release|x86.ActiveCfg = Release|Win32
 		{3A78EC2C-85EC-4FA5-B44C-75BF4CEB5DFB}.Release|x86.Build.0 = Release|Win32
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Debug|x64.ActiveCfg = Debug|x64
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Debug|x64.Build.0 = Debug|x64
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Debug|x86.ActiveCfg = Debug|Win32
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Debug|x86.Build.0 = Debug|Win32
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x64.ActiveCfg = Release|x64
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x64.Build.0 = Release|x64
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x86.ActiveCfg = Release|Win32
+		{90CD0D35-2786-41B5-80B2-8B71BCF44858}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
