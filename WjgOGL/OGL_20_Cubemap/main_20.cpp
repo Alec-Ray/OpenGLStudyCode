@@ -248,7 +248,9 @@ int main()
 		//因为我们将天空盒的深度值设置为了1，是最深的，当深度缓冲等于1时要让这个片段的深度测试
 		glDepthFunc(GL_LEQUAL);  
 		skyboxShader.use();
-		//移除了位移，这样天空盒不会随着我们的输入操作而移动
+		//移除了位移，这样天空盒不会随着我们的输入操作而移动。
+		//通过取4x4矩阵左上角的3x3矩阵来移除变换矩阵的位移部分，
+		//我们可以将观察矩阵转换为3x3矩阵（移除位移），再将其转换回4x4矩阵，来达到类似的效果。
 		view = glm::mat4(glm::mat3(camera.GetViewMatrix())); 
 		skyboxShader.setMat4("view", view);
 		skyboxShader.setMat4("projection", projection);
