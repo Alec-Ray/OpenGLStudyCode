@@ -1,3 +1,3 @@
 *.db
-..vs
-.Debug
+.vs/
+Debug/
