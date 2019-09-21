@@ -207,7 +207,7 @@ int main()
 	unsigned int cubemapTexture = loadCubemap(faces);
 
 	MyShader.use();
-	MyShader.setInt("texture1", 0);
+	MyShader.setInt("skybox", 0);
 
 	//Ìì¿ÕºÐµÄpiexl shader µÄtexture
 	skyboxShader.use();
