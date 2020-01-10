@@ -151,9 +151,6 @@ int main()
 		GenerateShadowMapShader.use();
 		GenerateShadowMapShader.setMat4("lightSpaceMatrix", lightSpaceMatrix);
 
-		//修复peter游移，我们要进行正面剔除
-		glCullFace(GL_FRONT);
-
 		glViewport(0, 0, SHADOW_WIDTH, SHADOW_HEIGHT);
 		glBindFramebuffer(GL_FRAMEBUFFER, depthMapFBO);
 		glClear(GL_DEPTH_BUFFER_BIT);
@@ -161,9 +158,6 @@ int main()
 		glBindTexture(GL_TEXTURE_2D, woodTexture);
 		renderScene(GenerateShadowMapShader);
 		glBindFramebuffer(GL_FRAMEBUFFER, 0);
-
-		//设回原先的culling face
-		glCullFace(GL_BACK);
 
 		glViewport(0, 0, Screen_Width, Screen_Height);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
