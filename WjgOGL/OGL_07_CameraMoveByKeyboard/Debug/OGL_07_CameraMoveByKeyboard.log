@@ -1,4 +1,0 @@
-﻿  main_07_CMBK.cpp
-c:\opengl\wjgogl\ogl_07_cameramovebykeyboard\main_07_cmbk.cpp(208): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  OGL_07_CameraMoveByKeyboard.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_07_CameraMoveByKeyboard.exe
-  OGL_07_CameraMoveByKeyboard.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_07_CameraMoveByKeyboard.pdb (Partial PDB)

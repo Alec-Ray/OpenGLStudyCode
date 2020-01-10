@@ -1,5 +1,0 @@
-﻿  main_07.cpp
-c:\opengl\wjgogl\ogl_07_camera\main_07.cpp(215): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\opengl\wjgogl\ogl_07_camera\main_07.cpp(216): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  OGL_07_Camera.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_07_Camera.exe
-  OGL_07_Camera.vcxproj -> C:\OpenGL\WjgOGL\Debug\OGL_07_Camera.pdb (Partial PDB)
