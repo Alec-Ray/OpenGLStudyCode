@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_28_PointShadow", "OGL_2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_28_PointShadowProgressive", "OGL_28_PointShadowProgressive\OGL_28_PointShadowProgressive.vcxproj", "{70997458-4178-4E01-97EA-35A81BE8E7BF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_29_NormalMap", "OGL_29_NormalMap\OGL_29_NormalMap.vcxproj", "{118AC6D6-0F02-4462-A135-690D0AAAB15D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -571,6 +573,14 @@ Global
 		{70997458-4178-4E01-97EA-35A81BE8E7BF}.Release|x64.Build.0 = Release|x64
 		{70997458-4178-4E01-97EA-35A81BE8E7BF}.Release|x86.ActiveCfg = Release|Win32
 		{70997458-4178-4E01-97EA-35A81BE8E7BF}.Release|x86.Build.0 = Release|Win32
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Debug|x64.ActiveCfg = Debug|x64
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Debug|x64.Build.0 = Debug|x64
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Debug|x86.ActiveCfg = Debug|Win32
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Debug|x86.Build.0 = Debug|Win32
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Release|x64.ActiveCfg = Release|x64
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Release|x64.Build.0 = Release|x64
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Release|x86.ActiveCfg = Release|Win32
+		{118AC6D6-0F02-4462-A135-690D0AAAB15D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
