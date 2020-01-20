@@ -78,7 +78,6 @@ int main()
 	}
 
 	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_CULL_FACE);
 
 	//生成立方体深度贴图
 	Shader GenerateShadowMapShader("Shader/28/GenerateShadowMap.vs","Shader/28/GenerateShadowMap.fs","Shader/28/GenerateShadowMap.gs");
