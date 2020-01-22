@@ -20,7 +20,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
-unsigned int loadTexture(const char *path,bool gammaCorrection);
+unsigned int loadTexture(const char *path);
 void renderQuad();
 
 const unsigned int Screen_Width  = 1000;
@@ -76,11 +76,16 @@ int main()
 	Shader ParallaxMapShader("Shader/30/ParallaxMap.vs", "Shader/30/ParallaxMap.fs");
 
 	//漫反射贴图
-	unsigned int diffuseMap = loadTexture("textures/bricks2.jpg", false);
+	unsigned int diffuseMap = loadTexture("textures/bricks2.jpg");
 	//法线贴图
-	unsigned int normalMap = loadTexture("textures/bricks2_normal.jpg", false);
+	unsigned int normalMap = loadTexture("textures/bricks2_normal.jpg");
 	//高度贴图，或者称之为视差贴图
-	unsigned int heightMap = loadTexture("textures/bricks2_disp.jpg", false);
+	unsigned int heightMap = loadTexture("textures/bricks2_disp.jpg");
+
+	//另外一套贴图
+	//unsigned int diffuseMap = loadTexture("textures/toy_box_diffuse.png");
+	//unsigned int normalMap = loadTexture("textures/toy_box_normal.png");
+	//unsigned int heightMap = loadTexture("textures/toy_box_disp.png");
 
 	ParallaxMapShader.use();
 	ParallaxMapShader.setInt("diffuseMap", 0);
@@ -295,7 +300,7 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 	camera.ProcessMouseScroll(yoffset);
 }
 
-unsigned int loadTexture(char const * path, bool gammaCorrection)
+unsigned int loadTexture(const char * path)
 {
 	unsigned int textureID;
 	glGenTextures(1, &textureID);
@@ -304,27 +309,19 @@ unsigned int loadTexture(char const * path, bool gammaCorrection)
 	unsigned char *data = stbi_load(path, &width, &height, &nrComponents, 0);
 	if (data)
 	{
-		GLenum internalFormat;
-		GLenum dataFormat;
+		GLenum format;
 		if (nrComponents == 1)
-		{
-			internalFormat = dataFormat = GL_RED;
-		}
+			format = GL_RED;
 		else if (nrComponents == 3)
-		{
-			internalFormat = gammaCorrection ? GL_SRGB : GL_RGB;
-			dataFormat = GL_RGB;
-		}
+			format = GL_RGB;
 		else if (nrComponents == 4)
-		{
-			internalFormat = gammaCorrection ? GL_SRGB_ALPHA : GL_RGBA;
-			dataFormat = GL_RGBA;
-		}
+			format = GL_RGBA;
+
 		glBindTexture(GL_TEXTURE_2D, textureID);
-		glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, width, height, 0, dataFormat, GL_UNSIGNED_BYTE, data);
+		glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
 		glGenerateMipmap(GL_TEXTURE_2D);
 
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT); 
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
