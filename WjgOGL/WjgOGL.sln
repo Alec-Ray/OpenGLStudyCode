@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_31_HighDynamicRange", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_32_Bloom", "OGL_32_Bloom\OGL_32_Bloom.vcxproj", "{ED7720FA-3C78-406E-ADB4-00EEB76993BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_33_DeferredShading", "OGL_33_DeferredShading\OGL_33_DeferredShading.vcxproj", "{300D36D7-9A85-4B74-A338-2E6D09C29374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{ED7720FA-3C78-406E-ADB4-00EEB76993BA}.Release|x64.Build.0 = Release|x64
 		{ED7720FA-3C78-406E-ADB4-00EEB76993BA}.Release|x86.ActiveCfg = Release|Win32
 		{ED7720FA-3C78-406E-ADB4-00EEB76993BA}.Release|x86.Build.0 = Release|Win32
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Debug|x64.ActiveCfg = Debug|x64
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Debug|x64.Build.0 = Debug|x64
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Debug|x86.ActiveCfg = Debug|Win32
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Debug|x86.Build.0 = Debug|Win32
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Release|x64.ActiveCfg = Release|x64
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Release|x64.Build.0 = Release|x64
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Release|x86.ActiveCfg = Release|Win32
+		{300D36D7-9A85-4B74-A338-2E6D09C29374}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
