@@ -139,6 +139,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_35_PbrLightingTexture",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_36_IBLdiffuseIrradianceCubemap", "OGL_36_IBLdiffuseIrradianceCubemap\OGL_36_IBLdiffuseIrradianceCubemap.vcxproj", "{4E8DD9CD-FC3A-423D-8DE1-C9C597A734FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGL_36_IBLdiffuseIrradianceCubemapConvolution", "OGL_36_IBLdiffuseIrradianceCubemapConvolution\OGL_36_IBLdiffuseIrradianceCubemapConvolution.vcxproj", "{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -691,6 +693,14 @@ Global
 		{4E8DD9CD-FC3A-423D-8DE1-C9C597A734FE}.Release|x64.Build.0 = Release|x64
 		{4E8DD9CD-FC3A-423D-8DE1-C9C597A734FE}.Release|x86.ActiveCfg = Release|Win32
 		{4E8DD9CD-FC3A-423D-8DE1-C9C597A734FE}.Release|x86.Build.0 = Release|Win32
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Debug|x64.ActiveCfg = Debug|x64
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Debug|x64.Build.0 = Debug|x64
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Debug|x86.Build.0 = Debug|Win32
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Release|x64.ActiveCfg = Release|x64
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Release|x64.Build.0 = Release|x64
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Release|x86.ActiveCfg = Release|Win32
+		{DAC4F0A1-941E-46E6-8B4D-AB761779B2D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
